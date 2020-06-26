@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/LiMiu331/vanilla/issues"
   },
-  "homepage": "https://github.com/LiMiu331/vanilla#readme"
+  "homepage": "https://github.com/LiMiu331/vanilla#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }

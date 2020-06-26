@@ -1,0 +1,23 @@
+{
+  "name": "vanilla",
+  "version": "0.0.1",
+  "description": "Vue UI框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiMiu331/vanilla.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "BiBi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LiMiu331/vanilla/issues"
+  },
+  "homepage": "https://github.com/LiMiu331/vanilla#readme"
+}

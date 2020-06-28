@@ -5,6 +5,16 @@
 </template>
 
 <script>
+    export default {
+     mounted() {
+            for (let node of this.$el.children){
+               let name = node.nodeName.toLowerCase()
+                if(name !== 'button'){
+                    console.warn(`button-group组件内只允许g-button，但是存在一个${name}`)
+                }
+            }
+        }
+    }
 
 </script>
 

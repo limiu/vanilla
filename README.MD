@@ -1,7 +1,7 @@
 # vanilla 一个Vue UI组件
 
 [![Build Status](https://www.travis-ci.org/LiMiu331/vanilla.svg?branch=master)](https://www.travis-ci.org/LiMiu331/vanilla)
-
+![npm bundle size](https://img.shields.io/bundlephobia/min/vanla)
 ## 介绍
 
 ## 开始使用

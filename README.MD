@@ -29,12 +29,15 @@ IE 8 及以上版本浏览器都支持
          }
 ```
 IE 15 及以上浏览器支持此样式
+
 2. 安装香草
+
 ```shell script
 yarn add vanla
 npm i -S vanla
 ```
 3. 引入 vanla
+
 ```js
   import  {Button,ButtonGroup,Icon} from 'vanla'
   import 'vanla/dist/index.css'

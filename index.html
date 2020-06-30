@@ -34,12 +34,12 @@
 <body>
 <div id="app">
     <div class="box">
-        <g-iput value="姓名" disbled></g-iput>
+        <g-iput value="姓名" disabled></g-iput>
         <g-iput value="年龄" ></g-iput>
         <g-iput value="电话" readonly></g-iput>
     </div>
     <div class="box">
-        <g-iput value="李" error="姓名不能少于两个字"></g-iput>
+        <g-iput value="李" @change="inputChange"></g-iput>
     </div>
     <div style="margin:20px">
     <g-button :loading="loading2" @click="loading2 = !loading2">

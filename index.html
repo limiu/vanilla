@@ -39,7 +39,9 @@
         <g-iput value="电话" readonly></g-iput>
     </div>
     <div class="box">
-        <g-iput value="李" @change="inputChange"></g-iput>
+        <g-iput  @change="inputChange" v-model="message"></g-iput>
+        <p>{{message}}</p>
+        <button @click="message +=1">1</button>
     </div>
     <div style="margin:20px">
     <g-button :loading="loading2" @click="loading2 = !loading2">

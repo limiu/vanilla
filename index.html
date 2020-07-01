@@ -33,11 +33,12 @@
 </head>
 <body>
 <div id="app">
-    <g-row>
+    <div style="border: 1px solid black">
+    <g-row gutter="20">
         <g-col>1</g-col>
         <g-col>2</g-col>
     </g-row>
-    <g-row>
+    <g-row gutter="20">
         <g-col>1</g-col>
         <g-col>2</g-col>
         <g-col>2</g-col>
@@ -50,8 +51,9 @@
     </g-row>
     <g-row>
         <g-col span="2">1</g-col>
-        <g-col span="22">2</g-col>
+        <g-col span="22" offset="2">2</g-col>
     </g-row>
+    </div>
     <div class="box">
         <g-iput value="姓名" disabled></g-iput>
         <g-iput value="年龄" ></g-iput>

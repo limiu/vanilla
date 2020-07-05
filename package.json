@@ -1,6 +1,6 @@
 {
   "name": "vanla",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Vue UI框架",
   "main": "dist/index.js",
   "scripts": {
